@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  bookings:
+    image: laxminarayanak/booking-microservice:latest
+    ports:
+      - "9002:9002"
+    environment:
+      # EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka
+      server_compression_enabled: true
+      spring_datasource_url: jdbc:mysql://mysql.cckjqtiuhl5f.us-east-1.rds.amazonaws.com:3306/booking
+      spring_datasource_username: root
+      spring_datasource_password: password
+      spring_datasource_driver-class-name: com.mysql.cj.jdbc.Driver
+      spring_jpa_properties_hibernate_dialect :  org.hibernate.dialect.MySQL5InnoDBDialect
+      spring_jpa_show-sql: true
+      spring_jpa_properties_hibernate_format_sql: true
+      spring_jpa_hibernate_ddl-auto: update
+  
+
+      
