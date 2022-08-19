@@ -7,7 +7,7 @@ services:
     environment:
       # EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka
       server_compression_enabled: true
-      spring_datasource_url: jdbc:mysql://mysql.cckjqtiuhl5f.us-east-1.rds.amazonaws.com:3306/booking
+      spring_datasource_url: jdbc:mysql://mysql-rds.cckjqtiuhl5f.us-east-1.rds.amazonaws.com:3306/booking
       spring_datasource_username: root
       spring_datasource_password: password
       spring_datasource_driver-class-name: com.mysql.cj.jdbc.Driver
