@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   bookings:
-    image: laxminarayanak/booking-microservice:latest
+    image: stevesam/psta-booking_microservice:latest
     ports:
       - "9002:9002"
     environment:
