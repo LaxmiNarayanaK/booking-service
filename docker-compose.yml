@@ -15,7 +15,11 @@ services:
       spring_jpa_show-sql: true
       spring_jpa_properties_hibernate_format_sql: true
       spring_jpa_hibernate_ddl-auto: update
-      loadbalancerurl: http://ps-ta-lb-1631604466.us-east-1.elb.amazonaws.com
+      loadbalancerurl: http://api.travelpublicissapient.com
+      server_compression_mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+      server_compression_min-response-size: 1024
+      server_http2_enabled: true
+      
   
 
       
