@@ -1,7 +1,7 @@
 # Microservice for Bookings 
 
 The Bookings microservice is going to be used in PS Travel Aggregator Project
-for doing bookings for several service that user avail from the application.
+for doing bookings for several services that user avail from the application.
 
 ## **Requirements :**  
 * JDK-11
